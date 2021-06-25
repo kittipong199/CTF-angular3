@@ -1,0 +1,61 @@
+<nav class="main-header navbar navbar-expand-md navbar-dark bg-dark">
+    <ul class="navbar-nav pl-2 pl-md-0">
+        <li class="nav-item">
+            <a class="nav-link" id="nopSideBarPusher" data-widget="pushmenu" href="#"><i class="fa fa-bars"></i></a>
+        </li>
+    </ul>
+    <a href="/Admin" class="brand-link navbar-dark">
+        <img src="/assets/logo.png" alt="logo.png"
+            class="brand-image logo d-block d-md-none d-sm-block d-sm-none">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="ไม่ต้องสลับช่องทาง">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ml-auto pl-2">
+            <li class="nav-item">
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link disabled">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">John Smith</font>
+                    </font>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/logout">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">
+                            Logout</font>
+                    </font>
+                </a>
+            </li>
+            <li class="nav-item">
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link" href="#" data-toggle="dropdown">
+                    <i class="fas fa-cogs"></i>
+                </a>
+                <ul class="maintenance-menu dropdown-menu dropdown-menu-right" role="menu">
+                    <li class="dropdown-item">
+                        <form action="/Admin/Common/ClearCache" method="post">
+                            <input name="returnurl" type="hidden" value="/Admin">
+                            <div class="input-group-append">
+                                <button type="submit" style="width:210px;background-color: Transparent;">
+                                    <span>
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">ล้างแคช</font>
+                                        </font>
+                                    </span>
+                                </button>
+                            </div>
+                            <input name="__RequestVerificationToken" type="hidden"
+                                value="CfDJ8HiFy0ULZGZMvFqpFGCBfcg8QIl1S-M4LKHp8Uo4CaH_nyADSbE7X-CjKT9O3lrGrh9ACUxVmgQ94P7Luxa2twiZf5rfoEaStSNs4a2f4n38VXwvwEmxuCbdR9oveJr_ATSzUziHHTy7eHuTSni1q1ihdw7MLZqDS_DNh90PPr4U3ZSCfReIA1rBFqoqqFqjcw">
+                        </form>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>

@@ -1,0 +1,22 @@
+.menu{
+    
+  width: 100%;
+  height: 300px;
+  background: url('../../assets/back2.jpg');
+}
+li{
+    
+    list-style-type: none;
+    padding: 3px;
+    display: inline;
+   justify-self: right;
+    
+}
+
+li a{
+    size: 60px;
+    height: 60px;
+    color: black;
+   
+}
+
